@@ -88,7 +88,7 @@ def print_red_centered_art():
     print((80))
     print(Fore.YELLOW + Style.BRIGHT + "[KING's dedication and struggle for PALESTINE]")
 if __name__ == "__main__":
-    printred_centered_art()
+    print_red_centered_art()
 def menu():
    # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
