@@ -63,18 +63,24 @@ def ddos():
 def print_red_centered_art():
     os.system("clear")
     art = '''
-                    ╔════════╗                            ╔════════╗
-                    ║        ║                             ║        ║
-                    ║╔═══════╝                           ║╔═══════╝
-                    ║║                 ╔═╗                ║║
-                    ║║                ╚═╝                 ║║
-                    ║║               ╔═════╗     ╔═╗      ║║
-                    ║║               ║╔═══╗║     ╚═╝   ╔═╝║
-                    ║║     ╔╗       ║║   ║║╔╗          ║╔═╝
-                    ║╚══════╝╚══════╝╚═══╝║║╚══════════╝║
-                    ║                     ║ ║          ║
-                    ║                     ║  ╚╗      ╔╝ 
-                    ╚═══════╝╚════════════╝   ╚══════╝'''   
+                           ╔════════╗                                      ╔════════╗
+                           ║╔═══════╝                                      ║╔═══════╝        
+                           ║║                     ╔═╗                         ║║
+                           ║║                     ╚═╝                         ║║
+                           ║║                   ╔═════╗                    ║║
+                           ║║                   ║╔═══╗║        ╔═╗       ║║
+        ╔═════╗       ║║                   ║╚═══╝║        ╚═╝    ╔═╝║
+        ║╔═══╗║       ║║                   ╚════╗║╔╗              ║╔═╝
+        ║╚═══╝╚════╝╚═════════╝╚══════╝║║╚════════╝║
+        ║                                                  ║║                 ║
+        ║                                                  ║╚╗             ╔╝ 
+        ╚════╗╔════╝╚═════════╝╚═══════╝   ╚═══════╝   
+        ╔════╝║      
+        ║        ║
+        ╚═════╝
+        
+        
+        '''
     red_art = f"{Fore.GREEN}{art}{Style.RESET_ALL}"  # Set th text color to red
     print(red_art.center(80))  # Adjust the width (80 characters) to match your terminal size
     #red_art2 = f"{Fore.RED}{art2}{Style.RESET_ALL}"
@@ -82,7 +88,7 @@ def print_red_centered_art():
     print((80))
     print(Fore.YELLOW + Style.BRIGHT + "[KING's dedication and struggle for PALESTINE]")
 if __name__ == "__main__":
-    print_red_centered_art()
+    printred_centered_art()
 def menu():
    # print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" Fore.WHITE + "Press CTRL + C and press enter to exit!!")
     print(Style.BRIGHT + Fore.YELLOW + "[INFO!]" + Fore.BLUE + "Press CTRL + C and press enter to exit!!")
