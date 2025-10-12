@@ -53,7 +53,7 @@ def ddos():
                 attack_num += 1
                 print("[💥]  \033[93mKunFay-DDos  \033[32mAttack number \033[97m——> \033[0m"+ str(attack_num))
             except socket.error:
-                print('\033[32mCONNECTION FAILED, HOST MAY BE DOWN OR CHECK IP OR PORT\033[0m')
+                print('\033[32mConnection failid \033[31mHost may be down \033[94mPlease check host\033[0m')
                 break
                 s.close()
 
