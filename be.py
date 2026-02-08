@@ -40,7 +40,7 @@ def ddos():
     #port = 80( default http port is 80)
     while True:
         try:
-            port = int(input("ENTER PORT (default port : 80 ) : ") or 80)
+            port = int(input("╰─> PORT (default port : 80 ) : ") or 80)
         except ValueError:
             print("Please enter a valid port , please try again")
             continue;
