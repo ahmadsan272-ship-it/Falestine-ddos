@@ -51,8 +51,8 @@ def ddos():
                 
                 attack_num += 1
                 time.sleep(1)
-                print(f"\r[☠️]\033[37m H0st > | \033[33m{fake} \033[37m | running \033[32m{attack_num}")
-                print(f"\r[💥]\033[38;5;39m Get > \033[37m| \033[38;5;220m{trget} \033[37m|\033[38;5;37m Port \033[91m{port}")
+                print(f"\r[☠️]\033[37m H0st > | \033[33m1{fake} \033[37m| running \033[32m{attack_num}")
+                print(f"\r[💥]\033[38;5;39m Get > \033[37m| \033[38;5;220m{trget} \033[37m|\033[38;5;37m Port > \033[91m{port}")
             except socket.error:
                 print('\033[32mConnection failid \033[31mHost may be down \033[94mPlease check host\033[0m')
                 break
